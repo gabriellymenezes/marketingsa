@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-contato {
+    background-color: #034689;
+    color: #fff;
+    text-align: right;
+    padding: 5px 60px;
+}
+
+.header-middle {
+    background-color: #fff;
+    box-shadow: 0 20px 90px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slider-wrapper {
+    max-width: 824px;
+    height: 290px;
+    margin: 20px auto;
+}
+
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-column h1 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.left-column ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    padding-left: 0;
+}
+
+.left-column p {
+    text-align: left;
+}
+
+.right-column img {
+    max-width: 325px;
+    height: 212px;
+    width: auto;
+}
+
+.image-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    max-width: 100%;
+    max-width: 196px; 
+    height: 163px; 
+}
+
+.box p {
+    margin-top: 10px;
+    color: #808080;
+}
+
+.box a {
+    text-decoration: none;
+    color: #034689;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #3f3f3f;
+    padding: 15px 0 150px 0;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.footer ul {
+    list-style: none;
+    margin: 10;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.footer ul li:last-child {
+    margin-right: 600px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+}
